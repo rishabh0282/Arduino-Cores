@@ -8,14 +8,13 @@ Boards Manager
 This is the suggested installation method for end users.
 
 Prerequisites
-~~~~~~~~~~~~~
+
 
 -  Arduino 1.6.8, get it from `Arduino
    [https://www.arduino.cc/en/Main/OldSoftwareReleases#previous](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) .
 -  Internet connection
 
 Instructions
-~~~~~~~~~~~~
 
 -  Start Arduino and open Preferences window.
 -  Enter
@@ -33,23 +32,21 @@ For more information on the Arduino Board Manager, see:
 
 - [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
 
-~~~~~~~~~~~~~~~~~~~~~~~
 
-   .. code:: bash
-      
+```bash      
        cd %USERPROFILE%\Documents\Arduino\
        if not exist hardware mkdir hardware
        cd hardware
        if not exist esp8266com mkdir esp8266com
        cd esp8266com
        git clone []https://github.com/esp8266/Arduino.git esp8266
-
+```
    You should end up with the following directory structure in
    
    ``C:\Users\{your username}\Documents\``
 
-   .. code:: bash
 
+```
        Arduino
        |
        --- libraries
@@ -72,22 +69,21 @@ For more information on the Arduino Board Manager, see:
                    --- README.md
                    --- boards.txt
                    --- LICENSE
-~~~~~~~~~~~~~~~~~~~~~~~
+```
 -  Initialize the submodules
 
-   .. code:: bash
-
+```bash
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
        git submodule update --init   
-  
+```
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
   
 -  Download binary tools
 
-   .. code:: bash
-
+```bash
        cd esp8266/tools
        python get.py
+```
 
 -  Restart Arduino
 
@@ -95,19 +91,18 @@ For more information on the Arduino Board Manager, see:
 
 -  When later updating your local library, goto the esp8266 directory and do a git pull
 
-   .. code:: bash
-
+```bash
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
        git status
        git pull
+```
 
 Note that you could, in theory install in ``C:\Program Files (x86)\Arduino\hardware`` however this has security implications, not to mention the directory often gets blown away when re-installing Arduino IDE. It does have the benefit (or drawback, depending on your perspective) - of being available to all users on your PC that use Arduino.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructions - Other OS
-~~~~~~~~~~~~~~~~~~~~~~~
+## Instructions - Other OS
+
 -  Open the console and go to Arduino directory. This can be either your
    *sketchbook* directory (usually ``<Documents>/Arduino``), or the
    directory of Arduino application itself, the choice is up to you.
@@ -115,16 +110,16 @@ Instructions - Other OS
    Alternatively, clone it elsewhere and create a symlink, if your OS
    supports them.
 
-   .. code:: bash
-
+```bash
        cd hardware
        mkdir esp8266com
        cd esp8266com
        git clone https://github.com/esp8266/Arduino.git esp8266
+```
 
    You should end up with the following directory structure:
 
-   .. code:: bash
+```bash
 
        Arduino
        |
@@ -147,23 +142,24 @@ Instructions - Other OS
                    --- README.md
                    --- boards.txt
                    --- LICENSE
-~~~~~~~~~~~~~~~~~~~~~~~
--  Initialize the submodules
+```
 
-   .. code:: bash
+##  Initialize the submodules
+
+```bash
 
        cd esp8266
        git submodule update --init   
-  
+```  
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
 
 -  Download binary tools
 
-   .. code:: bash
-
+```bash
        cd esp8266/tools
        python get.py
+```
 
--  Restart Arduino
+-  __Restart Arduino__
 
     
