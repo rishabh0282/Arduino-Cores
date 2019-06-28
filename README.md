@@ -143,8 +143,8 @@ Instructions - Other OS
 
 
  
-__Initialize the submodules__
-
+Initialize the submodules
+--------------
    .. code:: bash
 
        cd esp8266
