@@ -43,7 +43,7 @@ For more information on the Arduino Board Manager, see:
    
    ``C:\Users\{your username}\Documents\``
 
-   ```..code:: bash
+    ..code:: bash
 
        Arduino
        |
@@ -77,7 +77,7 @@ Initialize the submodules
        git submodule update --init   
   
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
-  
+  ```
 __Download binary tools__
 ```
    ..code:: bash
