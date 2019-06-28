@@ -30,7 +30,7 @@ For more information on the Arduino Board Manager, see:
 
 - [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
 
-   ..code:: bash
+   ``..code:: bash
       
        cd %USERPROFILE%\Documents\Arduino\
        if not exist hardware mkdir hardware
@@ -43,7 +43,7 @@ For more information on the Arduino Board Manager, see:
    
    ``C:\Users\{your username}\Documents\``
 
-   ..code:: bash
+   ``..code:: bash
 
        Arduino
        |
@@ -70,7 +70,7 @@ For more information on the Arduino Board Manager, see:
 
 Initialize the submodules
 ----------
-
+``
    ..code:: bash
 
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
@@ -107,17 +107,17 @@ Instructions - Other OS
 -  Clone this repository into hardware/esp8266com/esp8266 directory.
    Alternatively, clone it elsewhere and create a symlink, if your OS
    supports them.
-
+```
    .. code:: bash
 
        cd hardware
        mkdir esp8266com
        cd esp8266com
        git clone https://github.com/esp8266/Arduino.git esp8266
-
+```
    You should end up with the following directory structure:
 
-   .. code:: bash
+   ```.. code:: bash
 
        Arduino
        |
@@ -141,24 +141,24 @@ Instructions - Other OS
                    --- boards.txt
                    --- LICENSE
 
-
+```
  
 Initialize the submodules
 --------------
-   .. code:: bash
+   ```.. code:: bash
 
        cd esp8266
        git submodule update --init   
-  
+  ```
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
 
 __Download binary tools__
-
+```
    .. code:: bash
 
        cd esp8266/tools
        python get.py
-
+```
 - Restart Arduino
 
     
