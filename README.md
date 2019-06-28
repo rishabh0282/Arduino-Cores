@@ -11,7 +11,7 @@ Prerequisites
 ~~~~~~~~~~~~~
 
 -  Arduino 1.6.8, get it from `Arduino
-   website <https://www.arduino.cc/en/Main/OldSoftwareReleases#previous>`__.
+   website <https://www.arduino.cc/en/Main/OldSoftwareReleases#previous>.
 -  Internet connection
 
 Instructions
@@ -19,7 +19,7 @@ Instructions
 
 -  Start Arduino and open Preferences window.
 -  Enter
-   ``https://arduino.esp8266.com/stable/package_esp8266com_index.json``
+   https://arduino.esp8266.com/stable/package_esp8266com_index.json
    into *Additional Board Manager URLs* field. You can add multiple
    URLs, separating them with commas.
 -  Open Boards Manager from Tools > Board menu and find *esp8266*
@@ -31,7 +31,7 @@ Instructions
 
 For more information on the Arduino Board Manager, see:
 
-- https://www.arduino.cc/en/guide/cores
+- <https://www.arduino.cc/en/guide/cores>
 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -91,7 +91,7 @@ For more information on the Arduino Board Manager, see:
 
 -  Restart Arduino
 
-- If using the Arduino IDE for Visual Studio (https://www.visualmicro.com/), be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
+- If using the Arduino IDE for Visual Studio <https://www.visualmicro.com/>, be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
 
 -  When later updating your local library, goto the esp8266 directory and do a git pull
 
@@ -120,7 +120,7 @@ Instructions - Other OS
        cd hardware
        mkdir esp8266com
        cd esp8266com
-       git clone https://github.com/esp8266/Arduino.git esp8266
+       git clone <https://github.com/esp8266/Arduino.git> esp8266
 
    You should end up with the following directory structure:
 
