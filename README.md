@@ -33,31 +33,7 @@ For more information on the Arduino Board Manager, see:
 
 - https://www.arduino.cc/en/guide/cores
 
-Using git version
------------------
 
-This is the suggested installation method for contributors and library
-developers.
-
-Prerequisites
-~~~~~~~~~~~~~
-
--  Arduino 1.6.8 (or newer, current working version is 1.8.5)
--  git
--  Python 2.7 (https://python.org)
--  terminal, console, or command prompt (depending on your OS)
--  Internet connection
-
-Instructions - Windows 10
-~~~~~~~~~~~~~~~~~~~~~~~~~
-- First, make sure you don't already have the ESP8266 library installed using the Board Manager (see above)
-
-- Install git for Windows (if not already; see https://git-scm.com/download/win)
-
--  Open a command prompt (cmd) and go to Arduino default directory. This is typically the
-   *sketchbook* directory (usually ``C:\users\{username}\Documents\Arduino`` where the environment variable ``%USERPROFILE%`` usually contains ``C:\users\{username}``)
-   
--  Clone this repository into hardware/esp8266com/esp8266 directory.
 
    .. code:: bash
       
@@ -189,8 +165,4 @@ Instructions - Other OS
 
 -  Restart Arduino
 
-- When later updating your local library, goto the esp8266 directory and do a git pull
-
-   .. code:: bash
-
-       
+    
