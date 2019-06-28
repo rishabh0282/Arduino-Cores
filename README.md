@@ -30,20 +30,18 @@ For more information on the Arduino Board Manager, see:
 
 - [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
 
-   ```..code:: bash
-      
        cd %USERPROFILE%\Documents\Arduino\
        if not exist hardware mkdir hardware
        cd hardware
        if not exist esp8266com mkdir esp8266com
        cd esp8266com
-       git clone []https://github.com/esp8266/Arduino.git esp8266
-
+       git clone []https://github.com/esp8266/Arduino.git esp8266`
+  
    You should end up with the following directory structure in
    
    ``C:\Users\{your username}\Documents\``
 
-    ..code:: bash
+    
 
        Arduino
        |
@@ -71,8 +69,7 @@ For more information on the Arduino Board Manager, see:
 Initialize the submodules
 ----------
 ```
-   ..code:: bash
-
+   
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
        git submodule update --init   
   
@@ -80,8 +77,6 @@ Initialize the submodules
   ```
 __Download binary tools__
 ```
-   ..code:: bash
-
        cd esp8266/tools
        python get.py
 ```
@@ -91,8 +86,6 @@ __Download binary tools__
 
 -  When later updating your local library, goto the esp8266 directory and do a git pull
 ```
-   .. code:: bash
-
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
        git status
        git pull
