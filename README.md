@@ -30,7 +30,7 @@ For more information on the Arduino Board Manager, see:
 
 - [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
 
-   ``..code:: bash
+   ```..code:: bash
       
        cd %USERPROFILE%\Documents\Arduino\
        if not exist hardware mkdir hardware
@@ -43,7 +43,7 @@ For more information on the Arduino Board Manager, see:
    
    ``C:\Users\{your username}\Documents\``
 
-   ``..code:: bash
+   ```..code:: bash
 
        Arduino
        |
@@ -70,7 +70,7 @@ For more information on the Arduino Board Manager, see:
 
 Initialize the submodules
 ----------
-``
+```
    ..code:: bash
 
        cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
