@@ -70,9 +70,9 @@ Initialize the submodules
 ----------
 ```    cd %USERPROFILE%\Documents\Arduino\hardware\esp8266com\esp8266
        git submodule update --init   
-  
-       If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should          be because this step was missed and is required.
   ```
+If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should          be because this step was missed and is required.
+
 __Download binary tools__
 ```
        cd esp8266/tools
