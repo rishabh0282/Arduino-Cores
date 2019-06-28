@@ -14,7 +14,7 @@ Prerequisites
 
 Instructions -(Windows)
 -----------
-~~~~~~~~~~~~
+
 
 -  Start Arduino and open Preferences window.
 -  Enter into *Additional Board Manager URLs* field. You can add multiple
@@ -25,10 +25,8 @@ Instructions -(Windows)
 -  Click *install* button.
 -  Don't forget to select your ESP8266 board from Tools > Board menu
    after installation.
-~~~~~~~~~~~~~
-For more information on the Arduino Board Manager, see:
 
-- [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
+For more information on the Arduino Board Manager, see:- [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
 
        cd %USERPROFILE%\Documents\Arduino\
        if not exist hardware mkdir hardware
