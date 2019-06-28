@@ -9,6 +9,7 @@ This is the suggested installation method for end users.
 
 Prerequisites
 ~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 
 -  Arduino 1.6.8, get it from `Arduino
@@ -19,8 +20,7 @@ Instructions
 ~~~~~~~~~~~~
 
 -  Start Arduino and open Preferences window.
--  Enter
-   [https://arduino.esp8266.com/stable/package_esp8266com_index.json](https://arduino.esp8266.com/stable/package_esp8266com_index.json)
+-  Enter 
    into *Additional Board Manager URLs* field. You can add multiple
    URLs, separating them with commas.
 -  Open Boards Manager from Tools > Board menu and find *esp8266*
@@ -29,12 +29,10 @@ Instructions
 -  Click *install* button.
 -  Don't forget to select your ESP8266 board from Tools > Board menu
    after installation.
-
+~~~~~~~~~~~~~
 For more information on the Arduino Board Manager, see:
 
 - [https://www.arduino.cc/en/guide/cores](https://www.arduino.cc/en/guide/cores)
-
-~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: bash
       
