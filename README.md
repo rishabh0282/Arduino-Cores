@@ -101,8 +101,6 @@ Instructions - Other OS
    Alternatively, clone it elsewhere and create a symlink, if your OS
    supports them.
 ```
-   .. code:: bash
-
        cd hardware
        mkdir esp8266com
        cd esp8266com
@@ -110,7 +108,7 @@ Instructions - Other OS
 ```
    You should end up with the following directory structure:
 
-   ```.. code:: bash
+   ```
 
        Arduino
        |
@@ -138,17 +136,13 @@ Instructions - Other OS
  
 Initialize the submodules
 --------------
-   ```.. code:: bash
-
-       cd esp8266
+   ``` cd esp8266
        git submodule update --init   
   ```
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
 
 __Download binary tools__
 ```
-   .. code:: bash
-
        cd esp8266/tools
        python get.py
 ```
