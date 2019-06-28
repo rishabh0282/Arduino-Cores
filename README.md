@@ -12,8 +12,7 @@ Prerequisites
 ~~~~~~~~~~~~~
 
 
--  Arduino 1.6.8, get it from `Arduino
-   [https://www.arduino.cc/en/Main/OldSoftwareReleases#previous](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) .
+-  Arduino 1.6.8, get it from [Arduino Website](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) .
 -  Internet connection
 
 Instructions
