@@ -11,7 +11,7 @@ Prerequisites
 ~~~~~~~~~~~~~
 
 -  Arduino 1.6.8, get it from `Arduino
-   website <https://www.arduino.cc/en/Main/OldSoftwareReleases#previous>.
+   website https://www.arduino.cc/en/Main/OldSoftwareReleases#previous .
 -  Internet connection
 
 Instructions
@@ -91,7 +91,7 @@ For more information on the Arduino Board Manager, see:
 
 -  Restart Arduino
 
-- If using the Arduino IDE for Visual Studio <https://www.visualmicro.com/>, be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
+- If using the Arduino IDE for Visual Studio https://www.visualmicro.com/, be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
 
 -  When later updating your local library, goto the esp8266 directory and do a git pull
 
@@ -120,7 +120,7 @@ Instructions - Other OS
        cd hardware
        mkdir esp8266com
        cd esp8266com
-       git clone <https://github.com/esp8266/Arduino.git> esp8266
+       git clone https://github.com/esp8266/Arduino.git esp8266
 
    You should end up with the following directory structure:
 
