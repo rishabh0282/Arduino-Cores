@@ -10,6 +10,7 @@ This is the suggested installation method for end users.
 Prerequisites
 ~~~~~~~~~~~~~
 
+
 -  Arduino 1.6.8, get it from `Arduino
    [https://www.arduino.cc/en/Main/OldSoftwareReleases#previous](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) .
 -  Internet connection
