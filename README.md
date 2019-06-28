@@ -70,7 +70,7 @@ For more information on the Arduino Board Manager, see:
                    --- README.md
                    --- boards.txt
                    --- LICENSE
-~~~~~~~~~~~~~~~~~~~~~~~
+
 -  Initialize the submodules
 
    .. code:: bash
@@ -145,7 +145,7 @@ Instructions - Other OS
                    --- README.md
                    --- boards.txt
                    --- LICENSE
-~~~~~~~~~~~~~~~~~~~~~~~
+
 -  Initialize the submodules
 
    .. code:: bash
