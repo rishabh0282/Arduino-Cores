@@ -85,7 +85,7 @@ __Download binary tools__
        cd esp8266/tools
        python get.py
 ```
--  Restart Arduino
+- Restart Arduino
 
 - If you are using the Arduino IDE for [Visual Studio](https://www.visualmicro.com/), be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
 
@@ -152,13 +152,13 @@ __Initialize the submodules__
   
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
 
--  Download binary tools
+__Download binary tools__
 
    .. code:: bash
 
        cd esp8266/tools
        python get.py
 
--  Restart Arduino
+- Restart Arduino
 
     
