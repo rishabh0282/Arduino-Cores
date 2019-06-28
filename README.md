@@ -99,8 +99,8 @@ __Download binary tools__
 ```
 Note that you could, in theory install in ``C:\Program Files (x86)\Arduino\hardware`` however this has security implications, not to mention the directory often gets blown away when re-installing Arduino IDE. It does have the benefit (or drawback, depending on your perspective) - of being available to all users on your PC that use Arduino.
 
-__Instructions - Other OS__
-
+Instructions - Other OS
+--------------------
 -  Open the console and go to Arduino directory. This can be either your
    *sketchbook* directory (usually ``<Documents>/Arduino``), or the
    directory of Arduino application itself, the choice is up to you.
