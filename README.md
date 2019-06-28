@@ -2,8 +2,8 @@
 Installing
 ==========
 
-Boards Manager
---------------
+__Boards Manager__
+
 
 This is the suggested installation method for end users.
 
