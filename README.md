@@ -12,12 +12,12 @@ Prerequisites
 -  Arduino 1.6.8, get it from [Arduino Website](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) .
 -  Internet connection
 
-Instructions
+Instructions -(Windows)
+-----------
 ~~~~~~~~~~~~
 
 -  Start Arduino and open Preferences window.
--  Enter 
-   into *Additional Board Manager URLs* field. You can add multiple
+-  Enter into *Additional Board Manager URLs* field. You can add multiple
    URLs, separating them with commas.
 -  Open Boards Manager from Tools > Board menu and find *esp8266*
    platform.
@@ -43,7 +43,7 @@ For more information on the Arduino Board Manager, see:
    
    ``C:\Users\{your username}\Documents\``
 
-   .. code:: bash
+   ..code:: bash
 
        Arduino
        |
@@ -68,7 +68,8 @@ For more information on the Arduino Board Manager, see:
                    --- boards.txt
                    --- LICENSE
 
--  Initialize the submodules
+Initialize the submodules
+----------
 
    ..code:: bash
 
@@ -77,7 +78,7 @@ For more information on the Arduino Board Manager, see:
   
   If error messages about missing files related to ``SoftwareSerial`` are encountered during the build process, it should be because this step was missed and is required.
   
-- Download binary tools
+__Download binary tools__
 ```
    ..code:: bash
 
@@ -86,7 +87,7 @@ For more information on the Arduino Board Manager, see:
 ```
 -  Restart Arduino
 
-- If using the Arduino IDE for [Visual Studio](https://www.visualmicro.com/), be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
+- If you are using the Arduino IDE for [Visual Studio](https://www.visualmicro.com/), be sure to click Tools - Visual Micro - Rescan Toolchains and Libraries 
 
 -  When later updating your local library, goto the esp8266 directory and do a git pull
 ```
@@ -98,11 +99,8 @@ For more information on the Arduino Board Manager, see:
 ```
 Note that you could, in theory install in ``C:\Program Files (x86)\Arduino\hardware`` however this has security implications, not to mention the directory often gets blown away when re-installing Arduino IDE. It does have the benefit (or drawback, depending on your perspective) - of being available to all users on your PC that use Arduino.
 
+__Instructions - Other OS__
 
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Instructions - Other OS
-~~~~~~~~~~~~~~~~~~~~~~~
 -  Open the console and go to Arduino directory. This can be either your
    *sketchbook* directory (usually ``<Documents>/Arduino``), or the
    directory of Arduino application itself, the choice is up to you.
@@ -110,13 +108,13 @@ Instructions - Other OS
    Alternatively, clone it elsewhere and create a symlink, if your OS
    supports them.
 
-   ```.. code:: bash
+   .. code:: bash
 
        cd hardware
        mkdir esp8266com
        cd esp8266com
        git clone https://github.com/esp8266/Arduino.git esp8266
-```
+
    You should end up with the following directory structure:
 
    .. code:: bash
@@ -142,8 +140,10 @@ Instructions - Other OS
                    --- README.md
                    --- boards.txt
                    --- LICENSE
-```
--  Initialize the submodules
+
+
+ 
+__Initialize the submodules__
 
    .. code:: bash
 
